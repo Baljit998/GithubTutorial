@@ -14,8 +14,10 @@ In this lesson we use Git from the Unix Shell. Some previous experience with the
 
 ## Table of Contents
 - [Section 1: Getting Started](#section-1-getting-started)
-- [Section 2: Intermediate Concepts](#section-2-intermediate-concepts)
-- [Section 3: Advanced Techniques](#section-3-advanced-techniques)
+- [Section 2: Create Directory](#section-2-create-directory)
+- [Section 3: Tracking Changes in Git](#section-3-tracking-changes-in-git)
+- [Section 4: Exploring History in Git](#section-4-exploring-history-in-git)
+- [Section 5: Remotes in Github](#section-5-remotes-in-github)
 - [Conclusion](#conclusion)
 
 ## Section 1: Getting Started
@@ -503,6 +505,12 @@ From github.com:Baljit998/planets
  * branch            main       -> FETCH_HEAD
 Already up to date.
 ```
+KeyPoints:
+1. A local Git repository can be connected to one or more remote repositories.
+2. Use the SSH protocol to connect to remote repositories.
+3. git push copies changes from a local repository to a remote repository.
+4. git pull copies changes from a remote repository to a local repository.
+
 
 ## Conclusion
 Now repository is available at [Github](https://github.com/Baljit998/planets).
